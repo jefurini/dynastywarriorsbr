@@ -7751,9 +7751,17 @@ html {
 /* Base Styles -------------------- */
 header {
   background-color: #000000;
-  padding: 7px; }
+  padding-bottom: 7px;
+  padding-top: 7px; }
 
-.container {
+.container-fluid {
   background-color: white; }
+
+.col-laranja {
+  background-color: #F7CE68;
+  padding: 6px; }
+
+.bg-gradiente {
+  background-image: linear-gradient(-30deg, #FBAB7E, #F7CE68); }
 
 /*# sourceMappingURL=main.css.map */
